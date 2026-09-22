@@ -57,7 +57,7 @@ scrapers, preprocessing modules, analysis modules, and the final pipeline.
 | duels_won | int | NO | Number of duels won |
 | yellow_cards | int | NO | Number of yellow cards |
 | red_cards | int | NO | Number of red cards |
-| league | string | YES | League of the staticstic |
+| league | string | YES | League of the satistics |
 ## 4. team_stats
 
 | Column | Type | Required | Description |
