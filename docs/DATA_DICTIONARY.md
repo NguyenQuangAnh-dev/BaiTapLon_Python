@@ -88,3 +88,13 @@ scrapers, preprocessing modules, analysis modules, and the final pipeline.
 | home_score | int | YES | Goals scored by the home team |
 | away_score | int | YES | Goals scored by the away team |
 | result | string | YES | Match result: H, D, or A |
+## 6. transfers
+
+| Column | Type | Required | Description |
+|---|---|---|---|
+| transfer_id | string | YES | Unique identifier of the transfer |
+| player_id | string | YES | ID of the transferred player |
+| transfer_date | date | NO | Date of the transfer |
+| from_team_id | string | NO | ID of the previous team |
+| to_team_id | string | NO | ID of the new team |
+| transfer_fee | float | NO | Transfer fee |
