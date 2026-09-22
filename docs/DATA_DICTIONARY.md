@@ -75,3 +75,16 @@ scrapers, preprocessing modules, analysis modules, and the final pipeline.
 | possession | float | NO | Average possession percentage |
 | shots | int | NO | Total shots |
 | shots_on_target | int | NO | Total shots on target |
+## 5. matches
+
+| Column | Type | Required | Description |
+|---|---|---|---|
+| match_id | string | YES | Unique identifier of the match |
+| date | date | YES | Date when the match was played |
+| league | string | YES | League of the match |
+| season | string | YES | Season of the match |
+| home_team_id | string | YES | ID of the home team |
+| away_team_id | string | YES | ID of the away team |
+| home_score | int | YES | Goals scored by the home team |
+| away_score | int | YES | Goals scored by the away team |
+| result | string | YES | Match result: H, D, or A |
