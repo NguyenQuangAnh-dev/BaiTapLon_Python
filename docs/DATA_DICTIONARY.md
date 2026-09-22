@@ -35,3 +35,25 @@ scrapers, preprocessing modules, analysis modules, and the final pipeline.
 | team_name | string | YES | Full name of the team |
 | league | string | YES | League in which the team competes |
 | country | string | YES | Country of the league |
+## 3. player_stats
+|Column| Type| Required | Description|
+|---|---|---|---|
+|player_id|string|YES|ID of the player |
+| season | string | YES | Season of the statistics |
+| matches | int | NO | Number of matches played |
+| starts | int | NO | Number of matches started |
+| minutes | int | NO | Total minutes played |
+| goals | int | NO | Number of goals scored |
+| assists | int | NO | Number of assists |
+| shots | int | NO | Total shots |
+| shots_on_target | int | NO | Shots on target |
+| passes | int | NO | Total passes attempted |
+| key_passes | int | NO | Passes creating a shooting opportunity |
+| pass_accuracy | float | NO | Passing accuracy percentage |
+| tackles | int | NO | Number of tackles |
+| interceptions | int | NO | Number of interceptions |
+| clearances | int | NO | Number of clearances |
+| blocks | int | NO | Number of blocked shots or passes |
+| duels_won | int | NO | Number of duels won |
+| yellow_cards | int | NO | Number of yellow cards |
+| red_cards | int | NO | Number of red cards |
