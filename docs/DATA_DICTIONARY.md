@@ -27,3 +27,11 @@ scrapers, preprocessing modules, analysis modules, and the final pipeline.
 | nationality   | string | NO       | Player's nationality            |
 | position      | string | NO       | Main playing position           |
 | team_id       | string | YES      | ID of the player's team         |
+## 2. teams
+
+| Column | Type | Required | Description |
+|---|---|---|---|
+| team_id | string | YES | Unique identifier of the team |
+| team_name | string | YES | Full name of the team |
+| league | string | YES | League in which the team competes |
+| country | string | YES | Country of the league |
