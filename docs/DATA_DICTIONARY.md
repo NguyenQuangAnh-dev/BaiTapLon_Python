@@ -57,3 +57,21 @@ scrapers, preprocessing modules, analysis modules, and the final pipeline.
 | duels_won | int | NO | Number of duels won |
 | yellow_cards | int | NO | Number of yellow cards |
 | red_cards | int | NO | Number of red cards |
+## 4. team_stats
+
+| Column | Type | Required | Description |
+|---|---|---|---|
+| team_id | string | YES | ID of the team |
+| season | string | YES | Season of the statistics |
+| matches | int | NO | Number of matches played |
+| wins | int | NO | Number of matches won |
+| draws | int | NO | Number of matches drawn |
+| losses | int | NO | Number of matches lost |
+| goals_for | int | NO | Total goals scored |
+| goals_against | int | NO | Total goals conceded |
+| goal_difference | int | NO | Goals scored minus goals conceded |
+| points | int | NO | Total league points |
+| clean_sheets | int | NO | Number of matches without conceding a goal |
+| possession | float | NO | Average possession percentage |
+| shots | int | NO | Total shots |
+| shots_on_target | int | NO | Total shots on target |
