@@ -57,6 +57,7 @@ scrapers, preprocessing modules, analysis modules, and the final pipeline.
 | duels_won | int | NO | Number of duels won |
 | yellow_cards | int | NO | Number of yellow cards |
 | red_cards | int | NO | Number of red cards |
+| league | string | YES | League in which the team competes |
 ## 4. team_stats
 
 | Column | Type | Required | Description |
@@ -75,6 +76,7 @@ scrapers, preprocessing modules, analysis modules, and the final pipeline.
 | possession | float | NO | Average possession percentage |
 | shots | int | NO | Total shots |
 | shots_on_target | int | NO | Total shots on target |
+| league | string | YES | League in which the team competes |
 ## 5. matches
 
 | Column | Type | Required | Description |
