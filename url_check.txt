@@ -1,1 +1,3 @@
 ##thêm url mọi người tìm được vào để check thông tin nhé 
+1. phương án tà đạo 
+https://github.com/Gauransh-Singh/Data-Analytics-Football-season-2024-25/blob/main/Data/players_data_light-2024_2025.csv
