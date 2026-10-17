@@ -1,1 +1,8 @@
-# Python dependencies will be added here.
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+scikit-learn>=1.3
+requests>=2.31
+lxml>=4.9
+beautifulsoup4>=4.12
+pytest>=7.4
